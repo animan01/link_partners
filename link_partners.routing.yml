@@ -13,6 +13,7 @@ link_partners.configuration_page.linkfeed:
     _form: 'Drupal\link_partners\Form\LinkfeedForm'
   requirements:
     _permission: 'administer site configuration'
+    _visible: true
 
 link_partners.configuration_page.trustlink:
   path: '/admin/config/services/link-partners/trustlink'
@@ -21,6 +22,7 @@ link_partners.configuration_page.trustlink:
     _form: 'Drupal\link_partners\Form\TrustlinkForm'
   requirements:
     _permission: 'administer site configuration'
+    _visible: true
 
 link_partners.configuration_page.sape:
   path: '/admin/config/services/link-partners/sape'
@@ -29,6 +31,7 @@ link_partners.configuration_page.sape:
     _form: 'Drupal\link_partners\Form\SapeForm'
   requirements:
     _permission: 'administer site configuration'
+    _visible: true
 
 link_partners.configuration_page.mainlink:
   path: '/admin/config/services/link-partners/mainlink'
@@ -37,3 +40,4 @@ link_partners.configuration_page.mainlink:
     _form: 'Drupal\link_partners\Form\MainlinkForm'
   requirements:
     _permission: 'administer site configuration'
+    _visible: true
