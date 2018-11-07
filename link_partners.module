@@ -67,3 +67,4 @@ function link_partners_help($route_name, \Drupal\Core\Routing\RouteMatchInterfac
 
   return $output;
 }
+
